@@ -1,0 +1,55 @@
+.container{
+    background:url("../../assets/img/writing.jpeg") ;
+    padding: 4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_wrapper{
+    display: grid;
+    gap: 1rem;
+    width: 30%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+}
+.form_title{
+    font-size:2rem;
+    padding:2rem;
+    background-color:#7c7eec;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 3rem;
+    
+}
+.form_row_type_1{
+    
+}
+.form_row_type_1 select{
+    padding: 8px 12px;
+}
+.form_row_type_2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.form_row_type_2 input{
+    padding: 8px 12px;
+}
+.form_row_type_3{
+    display: grid;
+}
+.form_wrapper button{
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #7c7eec;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 1rem;
+    scale:1;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 3.275);
+}
+.form_wrapper button:hover{
+    scale:1.2;
+    background-color:#c14d33;
+}

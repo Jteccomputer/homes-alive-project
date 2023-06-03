@@ -1,0 +1,79 @@
+.container_wrapper {
+    /* border: 0.5px solid #444; */
+    /* background-color: rgb(131, 112, 150); */
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+}
+.early_years{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+}
+.class_grp {
+    display: grid;
+    place-content: center;
+    margin: 0 2rem;
+ }
+.class_grp img{
+    width: 400px;
+}
+.main_heading {
+  font-size: 2rem;
+  color:#7c7eec;
+  text-align: center;
+}
+.main_body{
+  font-size: 16px;
+  text-align: center;
+  /* margin: 8px 10px; */
+}
+.overview_grp{
+    /* border: 0.5px solid red; */
+    display: grid;
+    padding: 0.5rem;
+    place-content: center;
+    margin: 0 2rem;
+}
+.overview_heading {
+  color: red;
+  font-size: 2rem;
+  text-align: center;
+}
+.overview_body {
+  font-size: 16px;
+  text-align: justify;
+  color: #717c0d;
+  font-style: italic;
+  /* background-color: #7c7eec; */
+}
+.curriculum{
+ display: flex;
+ text-align: center;
+ margin: auto;
+ 
+}
+.curriculum button {
+    background: red;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: none;
+    gap: 1rem;
+    /* display: flex; */
+    align-items: center;
+    border-bottom-right-radius: 1rem;
+}
+.primary_school{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+  /* background-color: #26a537; */
+}
+.junior_college{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+}

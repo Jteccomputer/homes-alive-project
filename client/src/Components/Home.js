@@ -5,11 +5,11 @@ import Marquee from "react-fast-marquee";
 import styles from "./Home.module.css";
 import Header from './Partials/Header/Header';
 import Footer from './Partials/Footer/Footer';
-import Navbar from './Partials/Navbar/Navbar';
-import logo from "../assets/img/main_logo.png";
-import pic_doctor from "../assets/img/marquee-professional/doctor.jpg";
-import pic_lawyer from "../assets/img/marquee-professional/lawyer.jpg";
-import pic_engineer from "../assets/img/marquee-professional/engineer.jpg";
+// import Navbar from './Partials/Navbar/Navbar';
+// import logo from "../assets/img/main_logo.png";
+// import pic_doctor from "../assets/img/marquee-professional/doctor.jpg";
+// import pic_lawyer from "../assets/img/marquee-professional/lawyer.jpg";
+// import pic_engineer from "../assets/img/marquee-professional/engineer.jpg";
 import Carousel from "../Components/Carousel/Carousel";
 import {countries} from "../Components/Carousel/data";
 
@@ -18,7 +18,7 @@ const Home = () => {
     <>
     <Header/>
    
-    <section className={styles.container}>
+    {/* <section className={styles.container}>
         <div className={styles.marque_Wrapper}>
           <Marquee play pauseOnClick direction='right' speed={50}>
             <div>
@@ -32,7 +32,7 @@ const Home = () => {
 
         </div>
     
-    </section>           
+    </section>            */}
     <Footer/>
     </>
     

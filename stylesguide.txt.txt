@@ -1,5 +1,0 @@
-Blue Background: #7c7eec
-red Background: #c14d33
-green Background: #26a537
-lightgrey: #999
-dark-text: #444

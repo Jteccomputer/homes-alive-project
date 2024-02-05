@@ -2,7 +2,8 @@
 import styles from "./carousel.module.css";
 
 
-function Carousel({images}) {
+function Carousel({images}) 
+{
   return (
     
       <div className={styles.carousel}>

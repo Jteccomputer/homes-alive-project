@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from "./navbar.module.css";
 import logo from '../../../assets/img/logo edit.png';
 import { Link } from "react-router-dom";
@@ -13,10 +13,11 @@ import {
 } from "react-icons/fa";
 
 const Navbar = () => {
-  let state = {clicked:false};
-  const handleClick = () => {
-    this.setState({clicked:!this.state.clicked})
-  }
+  // let state = {clicked:false};
+  // const handleClick = () => {
+  //   this.setState({clicked:!this.state.clicked})
+  // }
+  const [clicked, setClicked] = useState(false)
     return (
       <>
         <nav className={styles.container}>
@@ -25,7 +26,7 @@ const Navbar = () => {
           </div>
           <div className={styles.links_grp}>
             <ul id="navbar"
-              className={this.state.clicked ? "#navbar active" : "#navbar"} 
+              className={clicked ? "#navbar active" : "#navbar"} 
               >
                   <li>
                       <a className="active" 
@@ -41,7 +42,7 @@ const Navbar = () => {
           </div>
           <div id="mobile">
             <i id="bar"
-            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+            className={clicked ? "fas fa-times" : "fas fa-bars"}
             ></i>
 
           </div>

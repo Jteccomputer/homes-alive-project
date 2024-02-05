@@ -67,14 +67,14 @@ const Footer = () => {
               <div className={styles.col_heading}>Our Socials</div>
               <div className={styles.col_body}>
                   <a className={styles.social_icons} href="http://www.facebook.com/" target="_blank" rel="noopener norefeferrer"><FaFacebook/> Facebook </a>
-                  <a className={styles.social_icons} href="http://" target="_blank" rel="noopener norefeferrer"><FaTwitter/> Twitter </a>
+                  <a className={styles.social_icons} href="http://homes-alive-academy" target="_blank" rel="norefeferrer"><FaTwitter/> Twitter </a>
                   <a className={styles.social_icons} href="http://" target="_blank" rel="noopener norefeferrer"><FaInstagram/> Instagram </a>
               </div>
           </div>
          
       </div>
       <div className={styles.container_row_2}>
-        &copy;2023 Homes Alive Academy, All rights reserved.
+        &copy;2024 Homes Alive Academy, All rights reserved.
       </div>
 
     </footer>
